@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <label>用户名：</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="password">密码:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label>性别：</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="female">男</label>
+        <input type="radio" id="female" name="gender" value="female" >
+        <label for="female">女</label>
+        <br>
+        <input type="checkbox" id="subscribe" name="subscribe" checked>
+        <label for="subscribe">是否订阅</label>
+        <br>
+        <label for="hobby">爱好：</label>
+        <select id="hobby" name="hobby">
+            <option value="1">唱跳rap</option>
+            <option value="2">篮球</option>
+            <option value="3">学习</option>
+        </select>
+        <br>
+        <input type="submit" value="提交">
+
+        <button type="button" onclick="myFunction()">点击</button>
+    </form>
+
+</body>
+
+<script>
+    function myFunction(){
+        alert("欧耶，我见过");
+    }
+</script>
+</html>
